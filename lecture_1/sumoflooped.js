@@ -12,12 +12,16 @@ const variables = {
     f: 6
 };
 
-// sum of 2 variables
+// Types of loop?
+// for, foreach, filter, map
 
-// sum of 3 variables
+// console.log(Object.keys(variables)); This part of code will devide the object into list formate to apply the looping operation.
+let sum = 0;
+Object.keys(variables).forEach(resp => {
+    {
+        sum += variables[resp];
+        // console.log(variables[resp]);
+    }
+}) 
 
-// sum of 4 variables
-
-// sum of 5 variables
-
-// sum of 6 variables
+console.log("Total of all the values: ",sum);
