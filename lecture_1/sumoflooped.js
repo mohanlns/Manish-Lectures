@@ -2,7 +2,7 @@
 
 
 // all variables
-
+//  Onject's are key value pairs.
 const variables = {
     a: 1,
     b: 2,
@@ -20,7 +20,7 @@ let sum = 0;
 Object.keys(variables).forEach(resp => {
     {
         sum += variables[resp];
-        // console.log(variables[resp]);
+        console.log(variables[resp], resp);
     }
 }) 
 
