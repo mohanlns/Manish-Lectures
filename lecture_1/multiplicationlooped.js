@@ -15,7 +15,7 @@ const variables = {
 // Types of loop?
 // for, foreach, filter, map
 
-let multiplications = 0
+let multiplications = 1
 
 // Type your code here.
 
