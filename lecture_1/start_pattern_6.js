@@ -9,6 +9,15 @@
 // ****^^^****
 // *****^*****
 
+const n = 9;
+for (var i = 0; i < n; i++) {
+    console.log(`${"*".repeat(n-i)}${"^".repeat((2*(i))+1)}${"*".repeat(n-i)}`);
+}
+
+for (var i = 0; i <= n; i++) {
+    console.log(`${"*".repeat(i)}${"^".repeat((2*(n-i))+1)}${"*".repeat(i)}`);
+}
+
 
 
 
