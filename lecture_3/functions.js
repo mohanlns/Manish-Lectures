@@ -63,6 +63,8 @@ const factorials = async (currentValue,value) => { // function with parameters
 
 // Check Prime Number: Check if a number is prime.
 // Jab bhi koi value prime hoti h to wo sirf apne aapse purn vibhajit joti h.
+// 5/1, 5/2, 5/3, 5/4, 5/5 =1 it's a prime number
+// 6/1, 6/2 = 3, 6/3 = 2, 6/4, 6/5, 6/6 =1 not a prime
 
 const findPrime = async (value) => {
     // Apply you logic here.
