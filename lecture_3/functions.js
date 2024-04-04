@@ -102,6 +102,19 @@ const findprimeList = async (range) => {
 // start value (3) and incrrement value (5) till 100
 // 3, 8, 13, 18, 23 .......
 
+const apSeries = (firstValue, difference) => {
+    for (let i = firstValue; i < 100; i+=difference) {
+        console.log(i);
+    }
+}
+
+// start value (1) and incrrement value by(sum of last and 2nd last value) till 100
+// 1, 3, 4, 7, 11, 18, 29, 47,   ......
+
+// start value (1) and incrrement value by(sum of last and 3rd last value) till 100
+// 1, 3, 5, 6, 9, 14, 20, 29,   ......
+
+
 
 // how we can call function
 // startPatern_1_demo();
@@ -111,3 +124,4 @@ const findprimeList = async (range) => {
 
 // findprime(15);
 // findprimeList(50);
+apSeries(3,5)
