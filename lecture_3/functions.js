@@ -109,10 +109,14 @@ const apSeries = (firstValue, difference) => {
 }
 
 // start value (1) and incrrement value by(sum of last and 2nd last value) till 100
-// 1, 3, 4, 7, 11, 18, 29, 47,   ......
+// 1, 3, 4, 7, 11, 18, 29, 47,   ...... till 100
+// ek first value (1), ek second value(3) jish se ye puri ap ki series banegi
+// 3rd value is sum of 1st and second value
+// 4th value is sum of 2nd and 3rd value .....
 
 // start value (1) and incrrement value by(sum of last and 3rd last value) till 100
-// 1, 3, 5, 6, 9, 14, 20, 29,   ......
+// 1, 3, 5, 6, 9, 14, 20, 29, 43  ...... till 100
+// ek first value(1), ek second value(3), ek third value(5) jish se ye puri ap ki series banegi
 
 
 
